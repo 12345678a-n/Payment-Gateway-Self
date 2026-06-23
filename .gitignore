@@ -1,0 +1,21 @@
+# Build artifacts
+build/
+*.o
+*.out
+*.exe
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+# Compiled binary
+payment_gateway
+test_runner
